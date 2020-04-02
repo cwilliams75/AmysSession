@@ -1,3 +1,5 @@
+import java.security.AlgorithmConstraints;
+
 public class PolyApple {
     public static void main(String[] args) {
 
@@ -16,5 +18,15 @@ public class PolyApple {
 
         bucky1.digest(fo);
         bucky1.digest(po);
+
+        AnimalList ALO = new AnimalList();
+        Dog d = new Dog();
+        Fish f = new Fish();
+
+        ALO.add(d);
+        ALO.add (f);
+//        DogList DLO = new DogList();
+//        Dog d = new Dog();
+//        DLO.add(d);
     }
 }
